@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Biblioteca agropecuaria</title>
+  <meta name="description" content="Biblioteca agropecuaria personal: fichas de fuentes, afirmaciones y observaciones de campo, consultables sin conexión.">
+  <meta name="theme-color" content="#556B2F">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Biblioteca agro">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="iconos/icono-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="iconos/apple-touch-icon.png">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-titulo">
+      <h1>Biblioteca agropecuaria</h1>
+      <p>Fichas, afirmaciones y observaciones. No diagnostica ni recomienda.</p>
+    </div>
+  </header>
+
+  <div id="aviso-conexion" class="aviso aviso-conexion" hidden>
+    Sin conexión: podés consultar y registrar. Los enlaces externos no abren y no se puede comprobar si una norma sigue vigente.
+  </div>
+  <div id="aviso-actualizacion" class="aviso" hidden>
+    Hay una versión nueva de la app. <button type="button" id="btn-recargar" class="enlace-boton">Recargar</button>
+  </div>
+
+  <main id="vista" class="vista" tabindex="-1" aria-live="polite">
+    <p class="cargando">Cargando la biblioteca…</p>
+  </main>
+
+  <nav class="navegacion" aria-label="Secciones">
+    <a href="#/buscar" data-seccion="buscar">Buscar</a>
+    <a href="#/fuentes" data-seccion="fuentes">Fuentes</a>
+    <a href="#/campo" data-seccion="campo">Campo</a>
+    <a href="#/respaldo" data-seccion="respaldo">Respaldo</a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
