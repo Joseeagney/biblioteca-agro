@@ -1,6 +1,6 @@
 {
  "formato": "biblioteca-agro-semilla",
- "version_semilla": 2,
+ "version_semilla": 3,
  "generada": "2026-10-31",
  "origen": {
   "origen": "Base de conocimiento agropecuaria — Mapa y primera recopilación",
@@ -10,7 +10,7 @@
   "importado": "2026-10-31",
   "importado_por": "Claude (copia de las filas de la base, sin reescribir)"
  },
- "nota": "Los registros importados copian la base sin reescribirla. Una respuesta de IA nunca se guarda como fuente.",
+ "nota": "Los registros importados copian la base sin reescribirla. Una respuesta de IA nunca se guarda como fuente. v3: se agregan fuentes nuevas (F-20261031-xx), temas, listas de verificación y herramientas. Los registros de la v2 no se modificaron.",
  "conteo_inventario": {
   "verificada": 14,
   "metadatos": 10,
@@ -5235,6 +5235,1291 @@
    ],
    "version": 1,
    "origen_registro": "base-importada"
+  },
+  {
+   "id": "F-20261031-01",
+   "alias": "DTE",
+   "conjunto": "tanda4-v020",
+   "titulo": "Solicitar Documento de Tránsito Electrónico (DT-e) de animales o subproductos — SENASA (trámite)",
+   "autoria": "SENASA",
+   "tipo": "Comunicación institucional o dato oficial",
+   "clase": "comunicacion-institucional",
+   "fecha_publicacion": "página modificada 18/09/2026",
+   "enlace": "https://www.argentina.gob.ar/solicitar-documento-de-transito-de-animales-o-subproductos",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "COM",
+    "NOR",
+    "SAN"
+   ],
+   "region": "Todo el país",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "Página del trámite completa.",
+   "respalda": "El DT-e ampara y habilita el movimiento de animales y subproductos de origen animal dentro del país. Lo solicita la persona responsable de la tenencia (productores, consignatarios). Requiere inscripción en el RENSPA; si lo gestiona un tercero, autorización del titular. Autogestión: clave fiscal de ARCA, adhesión a SIGAD y SIGSA y domicilio electrónico. Tiene fecha de vencimiento; se abona un arancel (la página no informa el monto).",
+   "puntos": [
+    "El DT-e ampara y habilita el movimiento de animales y subproductos de origen animal dentro del país.",
+    "Lo solicita la persona responsable de la tenencia (productores, consignatarios).",
+    "Requiere inscripción en el RENSPA; si lo gestiona un tercero, autorización del titular.",
+    "Autogestión: clave fiscal de ARCA, adhesión a SIGAD y SIGSA y domicilio electrónico.",
+    "Tiene fecha de vencimiento; se abona un arancel (la página no informa el monto)."
+   ],
+   "aporta": "",
+   "limites": "Página de trámite, no es la norma. No informa montos. Confirmar el procedimiento vigente en la oficina local de SENASA o en el sitio antes de mover hacienda.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-02",
+   "alias": "L10891",
+   "conjunto": "tanda4-v020",
+   "titulo": "Ley 10.891 (Buenos Aires): Guía Única de traslado de ganado mayor o menor y cueros",
+   "autoria": "Provincia de Buenos Aires (Legislatura)",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "Promulgación 20/03/1990; BO 18/04/1990",
+   "enlace": "https://normas.gba.gob.ar/ar-b/ley/1990/10891/5931",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "COM",
+    "NOR"
+   ],
+   "region": "Provincia de Buenos Aires",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Provincia de Buenos Aires",
+   "jurisdiccion": "Provincia de Buenos Aires",
+   "estado": "metadatos",
+   "que_se_reviso": "Solo la ficha del sistema normativo provincial (título y fechas). No se leyó el articulado.",
+   "respalda": "Implementa en la provincia la Guía Única de traslado para el tránsito de ganado y cueros. Reglamentada por el Decreto 878/1994 (según la ficha).",
+   "puntos": [
+    "Implementa en la provincia la Guía Única de traslado para el tránsito de ganado y cueros.",
+    "Reglamentada por el Decreto 878/1994 (según la ficha)."
+   ],
+   "aporta": "",
+   "limites": "No se leyó el texto ni se confirmó vigencia ni requisitos actuales de la guía (municipio, certificado de propiedad). Pendiente leer texto actualizado.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: metadatos.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-03",
+   "alias": "L13246",
+   "conjunto": "tanda4-v020",
+   "titulo": "Ley 13.246 de arrendamientos y aparcerías rurales (texto original)",
+   "autoria": "Congreso de la Nación",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "1948 (texto original)",
+   "enlace": "https://www.argentina.gob.ar/normativa/nacional/ley-13246-66159/texto",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "ECO",
+    "NOR"
+   ],
+   "region": "Todo el país",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "Texto original de la norma en argentina.gob.ar. No se leyó el texto actualizado ni la lista de modificatorias (Ley 22.298 no confirmada).",
+   "respalda": "Art. 4: si el plazo pactado es menor a cinco años, el arrendatario puede exigir que se considere celebrado por ese término. Art. 7: el arrendatario no puede subarrendar ni ceder el contrato, aun con conformidad del arrendador. Art. 21: hay aparcería cuando una parte entrega animales o un predio rural para explotación agropecuaria y se reparten los frutos. Art. 40: los contratos deben redactarse por escrito; art. 41: si se omiten formalidades sigue amparado si se prueba su existencia.",
+   "puntos": [
+    "Art. 4: si el plazo pactado es menor a cinco años, el arrendatario puede exigir que se considere celebrado por ese término.",
+    "Art. 7: el arrendatario no puede subarrendar ni ceder el contrato, aun con conformidad del arrendador.",
+    "Art. 21: hay aparcería cuando una parte entrega animales o un predio rural para explotación agropecuaria y se reparten los frutos.",
+    "Art. 40: los contratos deben redactarse por escrito; art. 41: si se omiten formalidades sigue amparado si se prueba su existencia."
+   ],
+   "aporta": "",
+   "limites": "Se leyó el texto ORIGINAL. Los artículos pueden haber sido modificados (p. ej. por la Ley 22.298 y el Código Civil y Comercial). Leer el texto actualizado y consultar a un abogado antes de firmar. Los contratos accidentales (por una o dos cosechas) tienen reglas propias no revisadas.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-04",
+   "alias": "L26509",
+   "conjunto": "tanda4-v020",
+   "titulo": "Ley 26.509 Sistema Nacional para la Prevención y Mitigación de Emergencias y Desastres Agropecuarios",
+   "autoria": "Congreso de la Nación",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "2009",
+   "enlace": "https://www.magyp.gob.ar/sitio/areas/d_eda/normativa/_archivos/200908_Ley%20N%C2%BA%2026.509%20Emergencia%20Agropecuaria.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "CLI",
+    "INU",
+    "NOR",
+    "ECO"
+   ],
+   "region": "Todo el país",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "PDF del texto de la ley publicado por MAGyP. No se leyó el Decreto 1712/2009 (reglamentación) ni el Decreto 1144/2009 (observación parcial).",
+   "respalda": "Emergencia: afectación de al menos 50 % de la producción o capacidad productiva; desastre: 80 % (art. 8). La provincia declara primero y solicita la adopción nacional; la Comisión Nacional propone y el Poder Ejecutivo decide. El productor debe presentar el certificado provincial que acredita su nivel de afectación (art. 8 c). Beneficios previstos: prórrogas impositivas, deducción por ventas forzosas de hacienda, espera de deudas bancarias, suspensión de ejecuciones fiscales (arts. 22–23).",
+   "puntos": [
+    "Emergencia: afectación de al menos 50 % de la producción o capacidad productiva; desastre: 80 % (art. 8).",
+    "La provincia declara primero y solicita la adopción nacional; la Comisión Nacional propone y el Poder Ejecutivo decide.",
+    "El productor debe presentar el certificado provincial que acredita su nivel de afectación (art. 8 c).",
+    "Beneficios previstos: prórrogas impositivas, deducción por ventas forzosas de hacienda, espera de deudas bancarias, suspensión de ejecuciones fiscales (arts. 22–23)."
+   ],
+   "aporta": "",
+   "limites": "El texto publicado por MAGyP puede no reflejar la observación del Decreto 1144/2009 ni cambios posteriores; los beneficios dependen de cada declaración y de organismos (ARCA, bancos). Para un caso concreto ver la declaración vigente por partido y el trámite provincial.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-05",
+   "alias": "AFTOSA26",
+   "conjunto": "tanda4-v020",
+   "titulo": "SENASA: comienza la segunda campaña anual 2026 de vacunación contra fiebre aftosa y brucelosis (noticia oficial)",
+   "autoria": "SENASA",
+   "tipo": "Comunicación institucional o dato oficial",
+   "clase": "comunicacion-institucional",
+   "fecha_publicacion": "08/06/2026",
+   "enlace": "https://www.argentina.gob.ar/noticias/comienza-la-segunda-campana-anual-de-vacunacion-contra-la-fiebre-aftosa-y-la-brucelosis",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "SAN",
+    "NOR"
+   ],
+   "region": "Provincia de Buenos Aires dentro de Centro Norte",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Provincia de Buenos Aires dentro de Centro Norte",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "Noticia oficial completa. No se leyó la Res. SENASA 711/2025 que cita.",
+   "respalda": "En la segunda campaña 2026 se vacunan solo terneros y terneras que recibieron la dosis en la primera; se deja de vacunar vaquillonas, novillos, novillitos y toritos. La vacunación sistemática se aplica en la región Centro Norte y Cordón Fronterizo; en Buenos Aires la segunda campaña iba hasta el 10 de julio. La estrategia se apoya en la Res. SENASA 711/2025. Brucelosis: se vacunan terneras de 3 a 8 meses en todo el país salvo Tierra del Fuego.",
+   "puntos": [
+    "En la segunda campaña 2026 se vacunan solo terneros y terneras que recibieron la dosis en la primera; se deja de vacunar vaquillonas, novillos, novillitos y toritos.",
+    "La vacunación sistemática se aplica en la región Centro Norte y Cordón Fronterizo; en Buenos Aires la segunda campaña iba hasta el 10 de julio.",
+    "La estrategia se apoya en la Res. SENASA 711/2025.",
+    "Brucelosis: se vacunan terneras de 3 a 8 meses en todo el país salvo Tierra del Fuego."
+   ],
+   "aporta": "",
+   "limites": "Es una noticia de una campaña puntual: las categorías y fechas cambian cada año. Confirmar el plan vigente con el ente sanitario local y la Res. 711/2025 (no leída).",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-06",
+   "alias": "ECSALADO",
+   "conjunto": "tanda4-v020",
+   "titulo": "Maresca, Quiroz García, Melani, Burges, Brusca y Plorutti: Estado corporal y su efecto en la eficiencia reproductiva en rodeos de cría de la Cuenca del Salado (INTA Cuenca del Salado, Chacra Exp. Chascomús, INTA Balcarce)",
+   "autoria": "Maresca, Quiroz García, Melani, Burges, Brusca y Plorutti (INTA, MDA)",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "sin fecha en el documento",
+   "enlace": "https://www.produccion-animal.com.ar/informacion_tecnica/cria_condicion_corporal/24-salado.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "ANI"
+   ],
+   "region": "Cuenca del Salado (rodeos de cría)",
+   "aplicabilidad": "local",
+   "aplicabilidad_texto": "Cuenca del Salado (rodeos de cría)",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo en el Sitio Argentino de Producción Animal (copia de terceros, no el repositorio del INTA).",
+   "respalda": "Usa una escala de estado corporal de 1 a 5 con medios puntos; 3 se considera óptimo. Evaluar por palpación en manga o, si no, visualmente en al menos 50 % de las vacas. Objetivo al parto: 3 o más en vacas adultas y 3,5 en vaquillonas o vacas de segundo servicio, para un anestro posparto cercano a 40 días. Con estado menor a 2,5 al servicio sugiere destete temporario o precoz; precoz para 1,5–2 justo antes del servicio. Toros: ingresar al servicio con estado entre 3,5 y 4.",
+   "puntos": [
+    "Usa una escala de estado corporal de 1 a 5 con medios puntos; 3 se considera óptimo.",
+    "Evaluar por palpación en manga o, si no, visualmente en al menos 50 % de las vacas.",
+    "Objetivo al parto: 3 o más en vacas adultas y 3,5 en vaquillonas o vacas de segundo servicio, para un anestro posparto cercano a 40 días.",
+    "Con estado menor a 2,5 al servicio sugiere destete temporario o precoz; precoz para 1,5–2 justo antes del servicio.",
+    "Toros: ingresar al servicio con estado entre 3,5 y 4."
+   ],
+   "aporta": "",
+   "limites": "Documento sin fecha; leído en una copia de terceros. Es recomendación técnica, no ensayo publicado con datos completos. No aborda servicio estacionado. Decisiones de destete con el asesor.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-07",
+   "alias": "CALSAN",
+   "conjunto": "tanda4-v020",
+   "titulo": "Quiroz y Rodríguez (INTA Cuenca del Salado), coord. Miñarro y Preliasco (FVSA): Calendario sanitario para la ganadería de cría, serie Buenas Prácticas para una Ganadería Sustentable de Pastizal (2012)",
+   "autoria": "Quiroz y Rodríguez (INTA Cuenca del Salado); coord. Miñarro y Preliasco (FVSA)",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "2012",
+   "enlace": "https://ubatic.agro.uba.ar/sites/default/files/files/cartillas/1.calendario_sanitario_para_la_ganaderia_de_cria.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "SAN",
+    "ANI"
+   ],
+   "region": "Cuenca del Salado",
+   "aplicabilidad": "local",
+   "aplicabilidad_texto": "Cuenca del Salado",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo (cartilla).",
+   "respalda": "Calendario mensual de julio a junio para un rodeo de cría del Salado con servicio de noviembre a fines de enero. Incluye revisión de toros, selección de vaquillonas, eliminación de vientres vacíos antes del servicio, tacto, vacunas preparto, control parasitario desde el destete y vacunas de terneros. Enfermedades consideradas: aftosa, carbunclo, brucelosis, mancha, diarrea neonatal, queratoconjuntivitis, neumonía, abortivas (IBR, DVB, campylobacteriosis, leptospirosis) y carencia de cobre. Indica que el calendario se planifica con criterio del veterinario.",
+   "puntos": [
+    "Calendario mensual de julio a junio para un rodeo de cría del Salado con servicio de noviembre a fines de enero.",
+    "Incluye revisión de toros, selección de vaquillonas, eliminación de vientres vacíos antes del servicio, tacto, vacunas preparto, control parasitario desde el destete y vacunas de terneros.",
+    "Enfermedades consideradas: aftosa, carbunclo, brucelosis, mancha, diarrea neonatal, queratoconjuntivitis, neumonía, abortivas (IBR, DVB, campylobacteriosis, leptospirosis) y carencia de cobre.",
+    "Indica que el calendario se planifica con criterio del veterinario."
+   ],
+   "aporta": "",
+   "limites": "De 2012: las obligaciones de aftosa y brucelosis cambiaron después (ver campañas vigentes). Sin licencia declarada: solo ficha y enlace. La app no copia dosis ni productos.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [
+    {
+     "id": "N5",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-08",
+   "alias": "L26727",
+   "conjunto": "tanda4-v020",
+   "titulo": "Ley 26.727 Régimen de Trabajo Agrario",
+   "autoria": "Congreso de la Nación",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "2011",
+   "enlace": "https://www.argentina.gob.ar/normativa/nacional/192152/texto",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "SEG",
+    "NOR"
+   ],
+   "region": "Todo el país",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "Texto de la norma en argentina.gob.ar (no se verificó si es el texto actualizado; no se leyó el Decreto 301/2013).",
+   "respalda": "Rige el trabajo para obtener productos primarios en ámbitos rurales (arts. 3, 5, 11). Jornada: no más de 8 horas diarias y 44 semanales (arts. 40–41). Descanso desde las 13 h del sábado hasta el día siguiente, salvo excepciones con descanso compensatorio (art. 43). Prohibido el trabajo de menores de 16 años (art. 54). El empleador debe proveer vivienda sólida, alimentación adecuada, agua apta y elementos de protección cuando hagan falta (arts. 24, 27, 28, 46).",
+   "puntos": [
+    "Rige el trabajo para obtener productos primarios en ámbitos rurales (arts. 3, 5, 11).",
+    "Jornada: no más de 8 horas diarias y 44 semanales (arts. 40–41).",
+    "Descanso desde las 13 h del sábado hasta el día siguiente, salvo excepciones con descanso compensatorio (art. 43).",
+    "Prohibido el trabajo de menores de 16 años (art. 54).",
+    "El empleador debe proveer vivienda sólida, alimentación adecuada, agua apta y elementos de protección cuando hagan falta (arts. 24, 27, 28, 46)."
+   ],
+   "aporta": "",
+   "limites": "Puede haber modificaciones posteriores no revisadas (p. ej. reformas laborales recientes). Para contratar, consultar el convenio o la resolución de la Comisión Nacional de Trabajo Agrario vigente y a un contador o abogado.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-09",
+   "alias": "R841",
+   "conjunto": "tanda4-v020",
+   "titulo": "Res. SENASA 841/2025: identificación individual electrónica obligatoria de bovinos, bubalinos y cérvidos",
+   "autoria": "SENASA",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "BO 03/11/2025",
+   "enlace": "https://www.argentina.gob.ar/normativa/nacional/norma-419696/texto",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "ANI",
+    "COM",
+    "NOR"
+   ],
+   "region": "Todo el país",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "Texto de la resolución en argentina.gob.ar y página informativa de SENASA (modificada 09/02/2026).",
+   "respalda": "Desde el 1/1/2026 ningún ternero o ternera bovino o bubalino puede moverse ni quedar en el campo de nacimiento después del destete sin identificación electrónica (art. 3). Se identifica al destete o antes del primer movimiento; la responsabilidad es del productor del campo de nacimiento (art. 5). Se usa un par: tarjeta visual más dispositivo electrónico (botón RFID, bolo o inyectable) (art. 1). Los dispositivos se declaran a SENASA dentro de 10 días hábiles: oficina local, SIGSA o la app SIGBIOTraza (art. 8). La resolución no menciona la marca a fuego.",
+   "puntos": [
+    "Desde el 1/1/2026 ningún ternero o ternera bovino o bubalino puede moverse ni quedar en el campo de nacimiento después del destete sin identificación electrónica (art. 3).",
+    "Se identifica al destete o antes del primer movimiento; la responsabilidad es del productor del campo de nacimiento (art. 5).",
+    "Se usa un par: tarjeta visual más dispositivo electrónico (botón RFID, bolo o inyectable) (art. 1).",
+    "Los dispositivos se declaran a SENASA dentro de 10 días hábiles: oficina local, SIGSA o la app SIGBIOTraza (art. 8).",
+    "La resolución no menciona la marca a fuego."
+   ],
+   "aporta": "",
+   "limites": "Norma reciente: verificar si hubo prórrogas o cambios. En la búsqueda aparece un proyecto de ley de 2026 (expediente 2282-D-2026) para eximir a la cría, no abierto ni verificado: un proyecto no es ley. La obligación provincial de marcas y señales es otro régimen y no se revisó.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-10",
+   "alias": "AGROPIRO",
+   "conjunto": "tanda4-v020",
+   "titulo": "Borrajo, C. I. (INTA Balcarce y Cuenca del Salado; FCA-UNMdP): Agropiro para la Cuenca del Salado",
+   "autoria": "Borrajo, C. I. (INTA; FCA-UNMdP)",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "sin fecha (referencias hasta 2014)",
+   "enlace": "https://produccion-animal.com.ar/produccion_y_manejo_pasturas/suelos_salinos/30-Agropiro_Cuenca_del_Salado.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "FOR"
+   ],
+   "region": "Cuenca del Salado, bajos salinos y sódicos",
+   "aplicabilidad": "local",
+   "aplicabilidad_texto": "Cuenca del Salado, bajos salinos y sódicos",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo en el Sitio Argentino de Producción Animal (copia de terceros).",
+   "respalda": "Los bajos salinos y/o sódicos ocupan alrededor del 15 % de la cuenca. Sembrar agropiro en esos bajos triplica la producción de forraje frente a suelos dominados por pelo de chancho (según la autora). Lote preparado con anticipación y libre de pelo de chancho y gramilla; siembra directa o labranza mínima si el suelo está desparejo. Fecha: fines de febrero o principios de marzo con humedad; profundidad no mayor a 2 cm; 25 kg/ha buscando 350 semillas/m². Fósforo a la siembra por suelos con menos de 10 ppm; nitrógeno después, escalonado. Primer pastoreo con plantas ancladas y piso firme, al inicio del macollaje, carga alta y poco tiempo.",
+   "puntos": [
+    "Los bajos salinos y/o sódicos ocupan alrededor del 15 % de la cuenca.",
+    "Sembrar agropiro en esos bajos triplica la producción de forraje frente a suelos dominados por pelo de chancho (según la autora).",
+    "Lote preparado con anticipación y libre de pelo de chancho y gramilla; siembra directa o labranza mínima si el suelo está desparejo.",
+    "Fecha: fines de febrero o principios de marzo con humedad; profundidad no mayor a 2 cm; 25 kg/ha buscando 350 semillas/m².",
+    "Fósforo a la siembra por suelos con menos de 10 ppm; nitrógeno después, escalonado.",
+    "Primer pastoreo con plantas ancladas y piso firme, al inicio del macollaje, carga alta y poco tiempo."
+   ],
+   "aporta": "",
+   "limites": "Documento de divulgación sin fecha, copia de terceros. Las dosis de fertilizante y semilla son orientativas de la autora: ajustar con análisis de suelo y asesor. Variedades citadas pueden no estar disponibles.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [
+    {
+     "id": "INV-09",
+     "tipo": "relacionada (ver la otra ficha)"
+    },
+    {
+     "id": "INV-10",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-11",
+   "alias": "MAQRUTA",
+   "conjunto": "tanda4-v020",
+   "titulo": "Decreto 79/98, Anexo II: normas para la circulación de maquinaria agrícola (documento publicado por MAGyP)",
+   "autoria": "Poder Ejecutivo Nacional (publicado por MAGyP)",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "1998",
+   "enlace": "https://www.magyp.gob.ar/sitio/areas/ss_mercados_agropecuarios/infraestructura/_archivos/000050_Rutas/000069_Normas%20Para%20la%20Circulaci%C3%B3n%20de%20Maquinaria%20Agr%C3%ADcola.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "MAQ",
+    "NOR",
+    "SEG"
+   ],
+   "region": "Rutas nacionales",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Rutas nacionales",
+   "jurisdiccion": "Nacional (rutas nacionales)",
+   "estado": "verificada",
+   "que_se_reviso": "PDF del Anexo II publicado por MAGyP. No se verificó si fue modificado después ni la norma provincial para rutas bonaerenses.",
+   "respalda": "Circular solo con luz solar; prohibido con lluvia, niebla o visibilidad reducida (2.1 y 2.3). Ancho máximo 3,50 m; entre 3,50 y 4,30 m solo en carretón con permiso especial (5.1 y 6.2). Largo máximo del tren 25,50 m y altura 4,20 m (5.2 y 5.3). Tren: baliza ámbar, cuatro banderas rojas y blancas y cartel PRECAUCIÓN DE SOBREPASO (4.1–4.3). Cada elemento del tren necesita seguro de responsabilidad civil vigente; permiso de 6 meses (6.1). Carretón: vehículo guía a 50 m con baliza intermitente; permiso de 3 meses (6.2).",
+   "puntos": [
+    "Circular solo con luz solar; prohibido con lluvia, niebla o visibilidad reducida (2.1 y 2.3).",
+    "Ancho máximo 3,50 m; entre 3,50 y 4,30 m solo en carretón con permiso especial (5.1 y 6.2).",
+    "Largo máximo del tren 25,50 m y altura 4,20 m (5.2 y 5.3).",
+    "Tren: baliza ámbar, cuatro banderas rojas y blancas y cartel PRECAUCIÓN DE SOBREPASO (4.1–4.3).",
+    "Cada elemento del tren necesita seguro de responsabilidad civil vigente; permiso de 6 meses (6.1).",
+    "Carretón: vehículo guía a 50 m con baliza intermitente; permiso de 3 meses (6.2)."
+   ],
+   "aporta": "",
+   "limites": "Norma de 1998: puede haber cambios posteriores no revisados. Para rutas provinciales y caminos rurales rigen normas provinciales y municipales no revisadas. No regula licencia ni patentamiento.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-12",
+   "alias": "KUGLER",
+   "conjunto": "tanda4-v020",
+   "titulo": "Kugler, Giorgetti, Cecchi, Rodríguez y Montenegro (EEA Valle Inferior, IDEVI-INTA): Módulos de cría, destete precoz vs. destete convencional",
+   "autoria": "Kugler, Giorgetti, Cecchi, Rodríguez y Montenegro (IDEVI-INTA)",
+   "tipo": "Evidencia experimental o de investigación",
+   "clase": "evidencia-experimental",
+   "fecha_publicacion": "sin fecha (precios de diciembre de 1994)",
+   "enlace": "https://www.gba.gob.ar/sites/default/files/agroindustria/docs/TRABAJO_MODULO_CRIA_KUGLER.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "ANI",
+    "FOR"
+   ],
+   "region": "Patagones y Viedma (sur bonaerense y Río Negro). NO es Cuenca del Salado.",
+   "aplicabilidad": "otra-region",
+   "aplicabilidad_texto": "Patagones y Viedma (sur bonaerense y Río Negro). NO es Cuenca del Salado.",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo publicado en el sitio del Ministerio de Desarrollo Agrario bonaerense.",
+   "respalda": "Módulo demostrativo de un ciclo en Patagones y Viedma (345 mm): 7,8 ha/EV con destete convencional y 5,6 ha/EV con destete precoz. Destete precoz a unos 69 días (81 kg) frente a convencional a unos 215 días (169 kg); preñez de 93 % en ambos. Según sus tablas, el destete precoz permitiría subir la carga hasta 30 % y solo se justificaría económicamente con un aumento mayor al 50 %.",
+   "puntos": [
+    "Módulo demostrativo de un ciclo en Patagones y Viedma (345 mm): 7,8 ha/EV con destete convencional y 5,6 ha/EV con destete precoz.",
+    "Destete precoz a unos 69 días (81 kg) frente a convencional a unos 215 días (169 kg); preñez de 93 % en ambos.",
+    "Según sus tablas, el destete precoz permitiría subir la carga hasta 30 % y solo se justificaría económicamente con un aumento mayor al 50 %."
+   ],
+   "aporta": "",
+   "limites": "Otra región, clima semiárido, un solo ciclo, precios de 1994. Sirve solo como referencia de la técnica; no se puede trasladar al Salado sin datos locales.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-13",
+   "alias": "CAA982",
+   "conjunto": "tanda4-v020",
+   "titulo": "Resolución Conjunta 34/2019 (SRyGS y SAyB): sustituye el art. 982 del Código Alimentario Argentino (agua potable)",
+   "autoria": "Secretarías de Regulación y Gestión Sanitaria y de Alimentos y Bioeconomía",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "BO 27/11/2019",
+   "enlace": "https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/34462.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "AGU",
+    "INO",
+    "NOR"
+   ],
+   "region": "Todo el país (agua de consumo humano)",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país (agua de consumo humano)",
+   "jurisdiccion": "Nacional",
+   "estado": "verificada",
+   "que_se_reviso": "PDF de la resolución conjunta en el sitio de legislación sanitaria del Ministerio de Salud.",
+   "respalda": "Fija para el agua potable un máximo de arsénico de 0,01 mg/l. Donde los suelos tienen alto arsénico, la autoridad sanitaria puede admitir hasta 0,05 mg/l si no se puede corregir, hasta tener los resultados del estudio Hidroarsenicismo y Saneamiento Básico. También sustituye los artículos 983 y 995 del CAA.",
+   "puntos": [
+    "Fija para el agua potable un máximo de arsénico de 0,01 mg/l.",
+    "Donde los suelos tienen alto arsénico, la autoridad sanitaria puede admitir hasta 0,05 mg/l si no se puede corregir, hasta tener los resultados del estudio Hidroarsenicismo y Saneamiento Básico.",
+    "También sustituye los artículos 983 y 995 del CAA."
+   ],
+   "aporta": "",
+   "limites": "Es para agua de consumo humano, no para bebida animal (ver F-20261030-07). Puede haber resoluciones posteriores no revisadas. Para saber si el agua del campo cumple hace falta un análisis en laboratorio.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-14",
+   "alias": "MBPERG",
+   "conjunto": "tanda4-v020",
+   "titulo": "Fillat, Cabrini, Camarasa y Bertín (INTA EEA Pergamino) 2018: Margen bruto de la producción ganadera bovina de carne de ciclo completo, Informe Técnico N.º 1",
+   "autoria": "Fillat, Cabrini, Camarasa y Bertín (INTA EEA Pergamino)",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "2018 (precios de enero 2018)",
+   "enlace": "https://www.produccion-animal.com.ar/empresa_agropecuaria/empresa_agropecuaria/146-margen_bruto_ganadero.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "GES",
+    "ECO"
+   ],
+   "region": "Norte bonaerense (modelo). NO es Cuenca del Salado.",
+   "aplicabilidad": "otra-region",
+   "aplicabilidad_texto": "Norte bonaerense (modelo). NO es Cuenca del Salado.",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo (copia en el Sitio Argentino de Producción Animal).",
+   "respalda": "Calcula margen bruto como ingreso bruto menos costos directos. Ingresos: ventas de novillos, vaquillonas, vacas de refugo y toros de rechazo. Costos directos: compra de toros, comercialización (con flete), personal, sanidad, alimentación y amortizaciones. No incluye el alquiler porque supone campo propio; supone el sistema en equilibrio, sin diferencias de inventario. Advierte que los resultados no son extrapolables a otros sistemas o fechas sin ajustes.",
+   "puntos": [
+    "Calcula margen bruto como ingreso bruto menos costos directos.",
+    "Ingresos: ventas de novillos, vaquillonas, vacas de refugo y toros de rechazo.",
+    "Costos directos: compra de toros, comercialización (con flete), personal, sanidad, alimentación y amortizaciones.",
+    "No incluye el alquiler porque supone campo propio; supone el sistema en equilibrio, sin diferencias de inventario.",
+    "Advierte que los resultados no son extrapolables a otros sistemas o fechas sin ajustes."
+   ],
+   "aporta": "",
+   "limites": "Sirve para entender la estructura del cálculo, no los valores. El documento tiene una inconsistencia en un rótulo (83 % frente a 72,6 % en la tabla). Para el Salado usar el modelo de MAGyP (F-20261030-01) con precios actuales.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [
+    {
+     "id": "INV-19",
+     "tipo": "relacionada (ver la otra ficha)"
+    },
+    {
+     "id": "F-20261030-01",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-15",
+   "alias": "CREAGES",
+   "conjunto": "tanda4-v020",
+   "titulo": "CREA: Normas de Gestión Empresarial, 6.2 Ganadería",
+   "autoria": "CREA",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "sin año en el texto (archivo subido en 2025)",
+   "enlace": "https://herramientas.crea.org.ar/wp-content/uploads/2025/03/6_2_normas_de_gestion_empresarial_crea_ganaderia-1.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "GES",
+    "ECO"
+   ],
+   "region": "Metodología general",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Metodología general",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo.",
+   "respalda": "Define producción de carne como nacimientos menos muertes más kilos ganados o perdidos. Define ingreso neto ganadero, resultado ganadero (ingreso neto menos costos de la actividad), resultado por tenencia y márgenes de contribución y bruto. Valoriza el conjunto madre-ternero antes del destete como equivalente a dos cabezas.",
+   "puntos": [
+    "Define producción de carne como nacimientos menos muertes más kilos ganados o perdidos.",
+    "Define ingreso neto ganadero, resultado ganadero (ingreso neto menos costos de la actividad), resultado por tenencia y márgenes de contribución y bruto.",
+    "Valoriza el conjunto madre-ternero antes del destete como equivalente a dos cabezas."
+   ],
+   "aporta": "",
+   "limites": "No define EV ni carga. Es una norma de una organización privada (CREA), no oficial; útil para ordenar cálculos de gestión.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-16",
+   "alias": "L22939",
+   "conjunto": "tanda4-v020",
+   "titulo": "Ley 22.939 Régimen de marcas y señales, certificados y guías (texto original)",
+   "autoria": "Poder Ejecutivo Nacional",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "1983",
+   "enlace": "https://www.argentina.gob.ar/normativa/nacional/56748/texto",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "COM",
+    "NOR"
+   ],
+   "region": "Todo el país; en Buenos Aires se aplica con normas provinciales",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Todo el país; en Buenos Aires se aplica con normas provinciales",
+   "jurisdiccion": "Nacional (las provincias registran y fijan formalidades)",
+   "estado": "verificada",
+   "que_se_reviso": "Texto original en argentina.gob.ar. No se leyó el texto actualizado ni la norma bonaerense que la aplica (Código Rural, Ley 10.081).",
+   "respalda": "Todo propietario debe marcar su ganado mayor y señalar su ganado menor (art. 6). El ganado mayor se marca durante su primer año de vida; el menor antes de los seis meses (art. 7). Cada provincia fija las formalidades de registro; el derecho se prueba con el título expedido por la autoridad (arts. 2 y 4). Toda transferencia de ganado se instrumenta con certificado de adquisición autenticado por la autoridad local (art. 12). Las guías son obligatorias para el tránsito de ganado y se rigen por la ley de la provincia emisora (art. 16). Salvo prueba en contrario, el ganado marcado se presume del titular del diseño; las crías al pie, de la madre (art. 9).",
+   "puntos": [
+    "Todo propietario debe marcar su ganado mayor y señalar su ganado menor (art. 6).",
+    "El ganado mayor se marca durante su primer año de vida; el menor antes de los seis meses (art. 7).",
+    "Cada provincia fija las formalidades de registro; el derecho se prueba con el título expedido por la autoridad (arts. 2 y 4).",
+    "Toda transferencia de ganado se instrumenta con certificado de adquisición autenticado por la autoridad local (art. 12).",
+    "Las guías son obligatorias para el tránsito de ganado y se rigen por la ley de la provincia emisora (art. 16).",
+    "Salvo prueba en contrario, el ganado marcado se presume del titular del diseño; las crías al pie, de la madre (art. 9)."
+   ],
+   "aporta": "",
+   "limites": "Texto original: revisar el actualizado. Convive con la identificación electrónica de SENASA (Res. 841/2025): son regímenes distintos. Los trámites bonaerenses (boleto de marca, guía, municipio) no se verificaron.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [
+    {
+     "id": "F-20261031-02",
+     "tipo": "relacionada (ver la otra ficha)"
+    },
+    {
+     "id": "F-20261031-09",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-17",
+   "alias": "MAIOLA",
+   "conjunto": "tanda4-v020",
+   "titulo": "Maiola, Gabellone y Hernández (comp.) 2003: Inundaciones en la región pampeana, EDULP (UNLP)",
+   "autoria": "Maiola, Gabellone y Hernández (comp.), EDULP",
+   "tipo": "Evidencia experimental o de investigación",
+   "clase": "evidencia-experimental",
+   "fecha_publicacion": "2003",
+   "enlace": "https://sedici.unlp.edu.ar/handle/10915/156084",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "CLI",
+    "INU"
+   ],
+   "region": "Región pampeana, Cuenca del Salado",
+   "aplicabilidad": "local",
+   "aplicabilidad_texto": "Región pampeana, Cuenca del Salado",
+   "jurisdiccion": "",
+   "estado": "metadatos",
+   "que_se_reviso": "Solo el registro de SEDICI (resumen y licencia). No se leyó el libro.",
+   "respalda": "El libro analiza inundaciones y sequías recurrentes en la región pampeana, en especial en la Cuenca del Salado. Según el resumen, el relieve llano dificulta evacuar el agua en períodos de excedentes y provoca anegamientos persistentes.",
+   "puntos": [
+    "El libro analiza inundaciones y sequías recurrentes en la región pampeana, en especial en la Cuenca del Salado.",
+    "Según el resumen, el relieve llano dificulta evacuar el agua en períodos de excedentes y provoca anegamientos persistentes."
+   ],
+   "aporta": "",
+   "limites": "Solo resumen. Libro de 2003; licencia CC BY-NC-SA 4.0 (permite guardar copia con atribución y sin uso comercial, pero no se guardó). Las cifras del resumen sobre aporte de la cuenca a granos y exportaciones no se verificaron en el texto.",
+   "no_permite_concluir": "",
+   "licencia": "CC BY-NC-SA 4.0 (verificada en SEDICI)",
+   "copia_offline": "permitida",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [
+    {
+     "id": "F-10",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: metadatos.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-18",
+   "alias": "D499",
+   "conjunto": "tanda4-v020",
+   "titulo": "Decreto 499/91 (Buenos Aires), reglamentario de la Ley 10.699 de agroquímicos",
+   "autoria": "Poder Ejecutivo de la Provincia de Buenos Aires",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "04/03/1991",
+   "enlace": "https://www.gba.gob.ar/static/agroindustria/docs/legislacion/Decreto_499-91.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "FIT",
+    "NOR"
+   ],
+   "region": "Provincia de Buenos Aires",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Provincia de Buenos Aires",
+   "jurisdiccion": "Provincia de Buenos Aires",
+   "estado": "verificada",
+   "que_se_reviso": "PDF del decreto publicado por el Ministerio provincial. No se verificó vigencia artículo por artículo ni normas posteriores (p. ej. resoluciones de carnet de aplicador y ordenanzas municipales).",
+   "respalda": "La receta agronómica la confecciona un ingeniero agrónomo, por triplicado; el comercio vende contra el primer cuerpo (arts. 40 y 42). Fabricantes, distribuidores y depósitos se habilitan ante la Dirección de Sanidad Vegetal (art. 4). Las empresas aplicadoras se inscriben o actualizan cada año entre el 1 de mayo y el 31 de julio (art. 23). Operarios aplicadores necesitan habilitación con curso y certificado de salud (art. 28). La aplicación terrestre no puede circular por centros poblados; la aérea, a no menos de 2 km de ellos (arts. 34 y 38). Con colmenares a menos de 3.000 m se avisa al Centro Apícola con 36 h de antelación (art. 19).",
+   "puntos": [
+    "La receta agronómica la confecciona un ingeniero agrónomo, por triplicado; el comercio vende contra el primer cuerpo (arts. 40 y 42).",
+    "Fabricantes, distribuidores y depósitos se habilitan ante la Dirección de Sanidad Vegetal (art. 4).",
+    "Las empresas aplicadoras se inscriben o actualizan cada año entre el 1 de mayo y el 31 de julio (art. 23).",
+    "Operarios aplicadores necesitan habilitación con curso y certificado de salud (art. 28).",
+    "La aplicación terrestre no puede circular por centros poblados; la aérea, a no menos de 2 km de ellos (arts. 34 y 38).",
+    "Con colmenares a menos de 3.000 m se avisa al Centro Apícola con 36 h de antelación (art. 19)."
+   ],
+   "aporta": "",
+   "limites": "Decreto de 1991: hay normas posteriores y ordenanzas municipales con distancias propias (ver A17) no revisadas. Antes de aplicar, consultar al municipio y a un ingeniero agrónomo. La app no indica productos ni dosis.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [
+    {
+     "id": "INV-21",
+     "tipo": "relacionada (ver la otra ficha)"
+    },
+    {
+     "id": "INV-22",
+     "tipo": "relacionada (ver la otra ficha)"
+    }
+   ],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-19",
+   "alias": "ESTBA",
+   "conjunto": "tanda4-v020",
+   "titulo": "Estimaciones agrícolas de la Provincia de Buenos Aires por cultivo, campaña y partido (datos abiertos, Dirección de Estimaciones Agrícolas SAGyP)",
+   "autoria": "Dirección de Estimaciones Agrícolas (SAGyP), catálogo de datos de la Provincia",
+   "tipo": "Comunicación institucional o dato oficial",
+   "clase": "comunicacion-institucional",
+   "fecha_publicacion": "serie 1969/70–2025/26; actualizado 2026",
+   "enlace": "https://catalogo.datos.gba.gob.ar/sq/dataset/estimaciones-agro",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "CUL"
+   ],
+   "region": "Todos los partidos bonaerenses (incluye Lezama, Castelli, Dolores, Pila, Chascomús, General Belgrano)",
+   "aplicabilidad": "local",
+   "aplicabilidad_texto": "Todos los partidos bonaerenses (incluye Lezama, Castelli, Dolores, Pila, Chascomús, General Belgrano)",
+   "jurisdiccion": "Provincia de Buenos Aires (dato nacional)",
+   "estado": "metadatos",
+   "que_se_reviso": "Ficha del conjunto de datos en el catálogo provincial (cobertura, licencia, formatos). No se descargaron ni analizaron los archivos.",
+   "respalda": "Serie histórica de estimaciones de cultivos por partido de la provincia, de 1969/70 a 2025/26. Licencia Creative Commons Atribución 4.0; formatos CSV y XLS.",
+   "puntos": [
+    "Serie histórica de estimaciones de cultivos por partido de la provincia, de 1969/70 a 2025/26.",
+    "Licencia Creative Commons Atribución 4.0; formatos CSV y XLS."
+   ],
+   "aporta": "",
+   "limites": "Son estimaciones oficiales por partido, no datos de un campo. Lezama es partido desde 2009: verificar si aparece separado de Chascomús en la serie. Pendiente descargar y cargar los partidos de la zona.",
+   "no_permite_concluir": "",
+   "licencia": "CC BY 4.0 (verificada en el catálogo de datos)",
+   "copia_offline": "permitida",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: metadatos.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-20",
+   "alias": "SUPOTO",
+   "conjunto": "tanda4-v020",
+   "titulo": "Méndez y Davies (INTA General Villegas): Suplementación otoñal de terneros sobre verdeos de invierno",
+   "autoria": "Méndez y Davies (INTA General Villegas)",
+   "tipo": "Evidencia experimental o de investigación",
+   "clase": "evidencia-experimental",
+   "fecha_publicacion": "sin fecha (ensayos desde 1995)",
+   "enlace": "https://www.produccion-animal.com.ar/informacion_tecnica/suplementacion/53-suplementacion_otonal.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "FOR",
+    "ANI"
+   ],
+   "region": "General Villegas (oeste bonaerense). NO es Cuenca del Salado.",
+   "aplicabilidad": "otra-region",
+   "aplicabilidad_texto": "General Villegas (oeste bonaerense). NO es Cuenca del Salado.",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo (copia de terceros).",
+   "respalda": "Cinco años de ensayos con terneros de 180–200 kg sobre avena, triticale y raigrás, con asignación de forraje de 2,5 % del peso vivo. Sin grano, la ganancia nunca bajó de 0,760 kg/animal/día. Suplementar con grano aumentó la receptividad (12,4 % y 34,5 %) y la producción de carne (19,3 % y 38,8 %) frente a 534 kg/ha del testigo. Los autores atribuyen las ganancias bajas sobre todo a asignación insuficiente de forraje.",
+   "puntos": [
+    "Cinco años de ensayos con terneros de 180–200 kg sobre avena, triticale y raigrás, con asignación de forraje de 2,5 % del peso vivo.",
+    "Sin grano, la ganancia nunca bajó de 0,760 kg/animal/día.",
+    "Suplementar con grano aumentó la receptividad (12,4 % y 34,5 %) y la producción de carne (19,3 % y 38,8 %) frente a 534 kg/ha del testigo.",
+    "Los autores atribuyen las ganancias bajas sobre todo a asignación insuficiente de forraje."
+   ],
+   "aporta": "",
+   "limites": "Otra zona y suelos; los verdeos en el Salado dependen de lotes de loma y del anegamiento. Usar como referencia de manejo, no de cifras esperables.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-21",
+   "alias": "DESBASTE",
+   "conjunto": "tanda4-v020",
+   "titulo": "Bavera, G. A. 2006: Desbaste o merma, Cursos de Producción Bovina de Carne, FAV-UNRC",
+   "autoria": "Bavera, G. A. (FAV-UNRC)",
+   "tipo": "Recomendación técnica",
+   "clase": "recomendacion-tecnica",
+   "fecha_publicacion": "2006",
+   "enlace": "https://produccion-animal.com.ar/informacion_tecnica/comercializacion/06-desbaste_o_merma.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "COM",
+    "ECO"
+   ],
+   "region": "Referencia general (Río Cuarto, Córdoba)",
+   "aplicabilidad": "regional-similar",
+   "aplicabilidad_texto": "Referencia general (Río Cuarto, Córdoba)",
+   "jurisdiccion": "",
+   "estado": "verificada",
+   "que_se_reviso": "PDF completo (Sitio Argentino de Producción Animal, del mismo autor).",
+   "respalda": "El desbaste es la diferencia de peso entre el campo y el mercado; incluye merma de llenado y, en traslados de más de 10 h, merma de tejidos. Valores citados: encierre nocturno de 12 h 3–5 %; venta en campo cargando al amanecer 3–5 %, por la tarde 5–8 %; terneros destetados y transportados 12–15 %. Según el autor, el tiempo de ayuno pesa más que la distancia (6 h ≈ 2,5 %; 48 h ≈ 10 %). Recomienda pesar y clasificar días antes, cargar tras la salida del sol, dar agua y heno, y estar presente en las pesadas. Un 10 % de desbaste equivale a un 10 % menos en el precio de venta.",
+   "puntos": [
+    "El desbaste es la diferencia de peso entre el campo y el mercado; incluye merma de llenado y, en traslados de más de 10 h, merma de tejidos.",
+    "Valores citados: encierre nocturno de 12 h 3–5 %; venta en campo cargando al amanecer 3–5 %, por la tarde 5–8 %; terneros destetados y transportados 12–15 %.",
+    "Según el autor, el tiempo de ayuno pesa más que la distancia (6 h ≈ 2,5 %; 48 h ≈ 10 %).",
+    "Recomienda pesar y clasificar días antes, cargar tras la salida del sol, dar agua y heno, y estar presente en las pesadas.",
+    "Un 10 % de desbaste equivale a un 10 % menos en el precio de venta."
+   ],
+   "aporta": "",
+   "limites": "Material de curso de 2006, no ensayo local. El porcentaje real se pacta en cada operación: dejar como campo editable.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Para estudio y referencia",
+   "revisar": "",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
+  },
+  {
+   "id": "F-20261031-22",
+   "alias": "ADA289",
+   "conjunto": "tanda4-v020",
+   "titulo": "Resolución ADA 289/2008 (Autoridad del Agua, Buenos Aires): requisitos de disponibilidad de agua, permiso de perforación y permiso de explotación de agua subterránea",
+   "autoria": "Autoridad del Agua de la Provincia de Buenos Aires",
+   "tipo": "Obligación normativa",
+   "clase": "obligacion-normativa",
+   "fecha_publicacion": "04/07/2008",
+   "enlace": "https://faolex.fao.org/docs/pdf/arg88885.pdf",
+   "enlaces_extra": [],
+   "fecha_consulta": "2026-10-31",
+   "areas": [
+    "AGU",
+    "NOR"
+   ],
+   "region": "Provincia de Buenos Aires",
+   "aplicabilidad": "general",
+   "aplicabilidad_texto": "Provincia de Buenos Aires",
+   "jurisdiccion": "Provincia de Buenos Aires",
+   "estado": "verificada",
+   "que_se_reviso": "Texto de la resolución en FAOLEX (copia de FAO, no el boletín oficial). No se leyó el Código de Aguas (Ley 12.257).",
+   "respalda": "Aprueba los requisitos de la solicitud de disponibilidad de agua y permiso de perforación del recurso hídrico subterráneo (art. 2, Anexo 1). Aprueba los requisitos del permiso de explotación (art. 3, Anexo 2); ambos piden informe hidrogeológico y documentación técnica. Deroga las Resoluciones ADA 08/04 y 333/06.",
+   "puntos": [
+    "Aprueba los requisitos de la solicitud de disponibilidad de agua y permiso de perforación del recurso hídrico subterráneo (art. 2, Anexo 1).",
+    "Aprueba los requisitos del permiso de explotación (art. 3, Anexo 2); ambos piden informe hidrogeológico y documentación técnica.",
+    "Deroga las Resoluciones ADA 08/04 y 333/06."
+   ],
+   "aporta": "",
+   "limites": "El texto no menciona excepciones para uso doméstico o bebida animal; el Código de Aguas u otras resoluciones posteriores pueden preverlas o haber reemplazado esta norma. Verificar con la Autoridad del Agua antes de perforar.",
+   "no_permite_concluir": "",
+   "licencia": "No verificada: se guarda solo la ficha y el enlace",
+   "copia_offline": "no-verificada",
+   "marca_uso": "Obligación normativa: verificar vigencia antes de actuar",
+   "revisar": "Revisar vigencia en abril de 2027",
+   "relaciones": [],
+   "ficha_original": [],
+   "version": 1,
+   "origen_registro": "base-importada",
+   "procedencia": {
+    "origen": "Investigación para la app v0.2.0 (fuentes abiertas el 2026-10-31)",
+    "revision": "notas de investigación 2026-10-31",
+    "seccion": "",
+    "importado": "2026-10-31",
+    "importado_por": "Claude (registro de lo leído; ver 'Qué se revisó')"
+   },
+   "historial": [
+    {
+     "fecha": "2026-10-31",
+     "accion": "Alta",
+     "detalle": "Fuente nueva registrada en la investigación de la v0.2.0. Estado: verificada.",
+     "por": "Claude (investigación)"
+    }
+   ]
   }
  ],
  "afirmaciones": [
@@ -5780,5 +7065,1551 @@
    "version": 1,
    "origen_registro": "base-importada"
   }
- ]
+ ],
+ "clases": {
+  "obligacion-normativa": "Obligación normativa",
+  "evidencia-experimental": "Evidencia experimental o de investigación",
+  "recomendacion-tecnica": "Recomendación técnica",
+  "comunicacion-institucional": "Comunicación institucional o dato oficial",
+  "interpretacion": "Interpretación"
+ },
+ "temas": [
+  {
+   "id": "T-01",
+   "titulo": "Ambientes del Salado: loma, media loma y bajo",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Suelos y ambientes",
+   "resumen": "En la Pampa Deprimida la posición en el relieve marca cuánta agua y cuánta sal tiene el suelo, y eso define qué vegetación y qué uso admite cada ambiente. Leer el campo por ambientes es el primer paso para cualquier decisión.",
+   "puntos": [
+    {
+     "texto": "Predominan los Natracuoles, asociados con Natracualfes y Natralboles (suelos con sodio).",
+     "fuentes": [
+      "F-20261030-02"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Cada comunidad vegetal ocupa una posición en el paisaje y se asocia con un tipo de suelo; la humedad y la salinidad serían los principales controles. Estudiado en Castelli, Pila y parte de Rauch.",
+     "fuentes": [
+      "F-20261030-02"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Los bajos salinos y/o sódicos ocupan alrededor del 15 % de la cuenca, según una autora del INTA.",
+     "fuentes": [
+      "F-20261031-10"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Las Cartas de Suelos 1:50.000 del INTA son la referencia para ubicar series de suelo por lote (solo se verificaron sus metadatos).",
+     "fuentes": [
+      "INV-01"
+     ],
+     "clase": "comunicacion-institucional"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Cuenca del Salado (estudios en Castelli, Pila y Rauch)",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Qué serie de suelo tiene cada lote (carta de suelos o análisis).",
+    "Cuánto ocupa cada ambiente en el campo concreto: no usar el 15 % de la cuenca como dato del campo."
+   ],
+   "limites": "Estudios descriptivos: muestran asociación, no causa. La carta de suelos no se leyó en esta revisión.",
+   "ilustracion": "I-PAISAJE",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-02",
+   "titulo": "Pastizal natural y pastoreo controlado",
+   "rubros": [
+    "ganaderia",
+    "mixto"
+   ],
+   "categoria": "Forrajes y pastoreo",
+   "resumen": "El pastizal natural es el recurso principal de la cría en la zona. La evidencia local indica que dar descansos (pastoreo rotativo o controlado) mejora la composición del pastizal frente al pastoreo continuo, aunque las cifras de aumento de carga publicadas en guías no muestran los datos.",
+   "puntos": [
+    {
+     "texto": "El pastoreo rotativo aumentó gramíneas invernales y leguminosas y redujo el suelo desnudo frente al continuo; en los bajos, solo en años secos (ensayo con revisión por pares; solo se leyó el resumen).",
+     "fuentes": [
+      "N4"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Una guía de extensión afirma que el pastoreo controlado permite subir la carga un 30 % de inmediato y un 50 a 70 % a los pocos años, sin mostrar los datos.",
+     "fuentes": [
+      "F-20261030-08"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Cantidad de potreros = días de descanso ÷ días de ocupación + 1.",
+     "fuentes": [
+      "F-20261030-08"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "El Observatorio Forrajero muestra anomalías de producción de forraje estimadas por satélite; no mide un potrero.",
+     "fuentes": [
+      "F-20261030-09",
+      "INV-25"
+     ],
+     "clase": "comunicacion-institucional"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Cuenca del Salado / Pampa Deprimida",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Descansos y ocupaciones adecuados para cada ambiente y estación: consultar asesor.",
+    "El aumento de carga esperable en el campo propio: medir antes y después."
+   ],
+   "limites": "Varias fuentes clave (N4, N7, N9, N12) solo tienen metadatos o resumen. La guía F-20261030-08 tuvo financiamiento privado declarado.",
+   "herramienta": "H-POTREROS",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-03",
+   "titulo": "Pasturas y forrajeras para bajos alcalinos",
+   "rubros": [
+    "ganaderia",
+    "mixto"
+   ],
+   "categoria": "Forrajes y pastoreo",
+   "resumen": "Para los bajos con sodio hay experiencias locales con agropiro, megatérmicas y Lotus tenuis. La implantación depende de controlar la competencia, sembrar con humedad y no pastorear temprano.",
+   "puntos": [
+    {
+     "texto": "Agropiro: lote preparado con anticipación y libre de pelo de chancho y gramilla; siembra directa o labranza mínima si el suelo está desparejo.",
+     "fuentes": [
+      "F-20261031-10"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Agropiro: sembrar a fines de febrero o principios de marzo con humedad, a no más de 2 cm; la autora indica 25 kg/ha buscando 350 semillas/m².",
+     "fuentes": [
+      "F-20261031-10"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Agropiro: primer pastoreo con plantas ancladas y piso firme, al inicio del macollaje, carga alta y por poco tiempo.",
+     "fuentes": [
+      "F-20261031-10"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Hay evaluaciones locales de gramíneas subtropicales en bajos alcalinos y de megatérmicas en ambientes marginales.",
+     "fuentes": [
+      "INV-09",
+      "INV-10"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Hay una comparación nutritiva de Lotus tenuis y Distichlis spicata en bajos.",
+     "fuentes": [
+      "INV-11"
+     ],
+     "clase": "evidencia-experimental"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Bajos salinos y sódicos de la Cuenca del Salado",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Análisis de suelo (pH, sodio, fósforo) del lote.",
+    "Disponibilidad actual de la variedad.",
+    "Dosis de semilla y fertilizante con el asesor: las de la ficha son orientativas."
+   ],
+   "limites": "El documento de agropiro no tiene fecha y se leyó en una copia de terceros. Esta app no da dosis para un caso concreto.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-04",
+   "titulo": "Estado corporal y reproducción en la cría",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Cría y reproducción",
+   "resumen": "El estado corporal al parto y al servicio es la palanca de manejo más citada para la preñez en la cría del Salado. Las preñeces de la región se monitorean cada año.",
+   "puntos": [
+    {
+     "texto": "Escala de estado corporal de 1 a 5 con medios puntos; 3 se considera óptimo. Evaluar por palpación en manga o visualmente en al menos la mitad del rodeo.",
+     "fuentes": [
+      "F-20261031-06"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Objetivo al parto: 3 o más en vacas adultas y 3,5 en vaquillonas o vacas de segundo servicio.",
+     "fuentes": [
+      "F-20261031-06"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Con estado menor a 2,5 al servicio, los autores sugieren destete temporario o precoz; precoz para 1,5–2 justo antes del servicio.",
+     "fuentes": [
+      "F-20261031-06"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Los toros deberían entrar al servicio con estado entre 3,5 y 4.",
+     "fuentes": [
+      "F-20261031-06"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "El monitoreo del INTA informó una preñez promedio cercana a 82,4 % en el ciclo 2022–2023 (dato de la comunicación, no del informe primario).",
+     "fuentes": [
+      "F-14"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Referencia de otra región: en Patagones, un módulo con destete precoz sostuvo más carga que el convencional con igual preñez (un ciclo, 1994).",
+     "fuentes": [
+      "F-20261031-12"
+     ],
+     "clase": "evidencia-experimental"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Cuenca del Salado (el módulo de destete precoz es de Patagones)",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "El destete precoz o temporario se decide con el veterinario o asesor.",
+    "Preñez del rodeo propio por tacto, no el promedio regional."
+   ],
+   "limites": "La guía de estado corporal no tiene fecha ni datos experimentales completos. F-14 no se verificó en el informe primario.",
+   "ilustracion": "I-EC",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-05",
+   "titulo": "Recría y verdeos de invierno",
+   "rubros": [
+    "ganaderia",
+    "mixto"
+   ],
+   "categoria": "Cría y reproducción",
+   "resumen": "Sobre verdeos, la evidencia revisada es de otra zona (oeste bonaerense). Sirve para entender el manejo, pero falta evidencia local del Salado.",
+   "puntos": [
+    {
+     "texto": "En General Villegas, terneros de 180–200 kg sobre avena, triticale o raigrás nunca ganaron menos de 0,760 kg/día sin grano, con asignación de 2,5 % del peso vivo.",
+     "fuentes": [
+      "F-20261031-20"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Suplementar con grano aumentó la receptividad y la producción de carne frente al testigo; los autores atribuyen las bajas ganancias sobre todo a asignar poco forraje.",
+     "fuentes": [
+      "F-20261031-20"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "La promoción de raigrás anual es una práctica difundida en la zona, con efectos productivos y ambientales en discusión (solo metadatos).",
+     "fuentes": [
+      "N10"
+     ],
+     "clase": "comunicacion-institucional"
+    }
+   ],
+   "evidencia_local": "sin",
+   "zona": "Evidencia de General Villegas; no hay ensayo local revisado",
+   "estado": "limitado",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Buscar ensayos de la EEA Cuenca del Salado o de la Chacra de Chascomús sobre verdeos y recría.",
+    "Qué lotes de loma admiten verdeo sin anegarse."
+   ],
+   "limites": "Tema con alcance limitado: la principal fuente es de otra región.",
+   "pendientes": [
+    "Ensayo local de recría sobre verdeos o raigrás promocionado."
+   ],
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-06",
+   "titulo": "Sanidad: calendario y vacunaciones obligatorias",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Sanidad",
+   "resumen": "Hay vacunaciones y controles obligatorios (aftosa según la campaña, brucelosis en terneras) y un calendario sanitario de referencia para la cría del Salado. La app no indica productos ni dosis: el calendario se arma con el veterinario.",
+   "puntos": [
+    {
+     "texto": "La vacunación antibrucélica de terneras de 3 a 8 meses es obligatoria.",
+     "fuentes": [
+      "F-20261030-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los establecimientos con reproducción deben determinar su estatus de brucelosis.",
+     "fuentes": [
+      "F-20261030-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Aftosa 2026: en la segunda campaña se vacunaron solo terneros y terneras que recibieron la primera dosis; se dejó de vacunar vaquillonas, novillos, novillitos y toritos (estrategia de la Res. SENASA 711/2025, no leída).",
+     "fuentes": [
+      "F-20261031-05"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "La sospecha de enfermedades del Grupo I se notifica dentro de las 24 h.",
+     "fuentes": [
+      "F-20261030-06"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Calendario de referencia para un rodeo con servicio de noviembre a enero: revisión de toros, eliminación de vientres vacíos, tacto, vacunas preparto, control parasitario desde el destete y vacunas de terneros, siempre con criterio del veterinario (2012).",
+     "fuentes": [
+      "F-20261031-07"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Hay monitoreo de resistencia a antiparasitarios en la cuenca (solo metadatos).",
+     "fuentes": [
+      "INV-17"
+     ],
+     "clase": "comunicacion-institucional"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Provincia de Buenos Aires y Cuenca del Salado",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Categorías y fechas de la campaña de aftosa del año en curso (cambian cada año).",
+    "Calendario del rodeo propio con el veterinario."
+   ],
+   "limites": "Solo para estudio. No diagnostica ni indica medicamentos o dosis. El calendario de 2012 es anterior a los cambios de las campañas obligatorias.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-07",
+   "titulo": "Bienestar animal, corrales y transporte",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Manejo y bienestar",
+   "resumen": "El bienestar tiene obligaciones mínimas (agua, alimento, aptitud para viajar, transporte habilitado) y buenas prácticas de manejo en corrales.",
+   "puntos": [
+    {
+     "texto": "El responsable de los animales debe asegurar alimento adecuado y libre acceso a agua suficiente.",
+     "fuentes": [
+      "F-20261030-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "No se cargan para viajar animales que no se mueven solos, con heridas graves o prolapso, entre otros casos.",
+     "fuentes": [
+      "F-20261030-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los transportes de animales vivos deben estar habilitados por SENASA, salvo excepciones.",
+     "fuentes": [
+      "INV-14"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Buenas prácticas en corrales: trabajar a pie y sin violencia, no llenar los corrales, usar banderas en lugar de palos o picanas, considerar zona de fuga y punto de balance (guía de Uruguay).",
+     "fuentes": [
+      "F-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Normas nacionales; guía de corrales de Uruguay",
+   "estado": "vigente",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Habilitación vigente del transporte antes de cargar."
+   ],
+   "limites": "La guía de instalaciones es de INIA Uruguay: útil como referencia, no es norma argentina.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-08",
+   "titulo": "Agua de bebida para la hacienda",
+   "rubros": [
+    "ganaderia",
+    "mixto"
+   ],
+   "categoria": "Agua",
+   "resumen": "La calidad del agua de bebida limita la producción y en la zona hay aguas con sales. Los umbrales disponibles son orientativos y conviene analizar cada perforación.",
+   "puntos": [
+    {
+     "texto": "Con más de 10 g/l de sales totales el agua de bebida tiene restricción seria de consumo (guía técnica, otra región).",
+     "fuentes": [
+      "F-20261030-07"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "El autor advierte que no se puede generalizar una tabla para todos los sistemas; arsénico y flúor pueden volver inapta el agua.",
+     "fuentes": [
+      "F-20261030-07"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Hay un estudio de aptitud del recurso hídrico en la cuenca inferior del Salado (Chascomús, General Paz, Monte, Lobos y Navarro); no incluye Castelli, Dolores, Pila ni Lezama.",
+     "fuentes": [
+      "F-11"
+     ],
+     "clase": "evidencia-experimental"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Guía general; un estudio regional",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Análisis del agua de cada aguada en laboratorio.",
+    "Interpretación del análisis con el veterinario o asesor."
+   ],
+   "limites": "Los umbrales no son normativa. Para agua de consumo humano ver el tema de agua potable.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-09",
+   "titulo": "Agricultura en la zona: suelos sódicos y maíz",
+   "rubros": [
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Cultivos",
+   "resumen": "La agricultura ocupa una parte menor de la cuenca y se hace en las lomas o en campos bajos con limitaciones. La evidencia local revisada es una sola línea de ensayos sobre maíz en suelos sódicos con napa alta.",
+   "puntos": [
+    {
+     "texto": "Por cada 1 % de aumento del sodio intercambiable (PSI) del subsuelo, el rendimiento del maíz bajó cerca de 134,5 kg/ha (rango de PSI 3–34 %).",
+     "fuentes": [
+      "F-12"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "En un ensayo de un sitio y una campaña, el rendimiento bajó al aumentar el PSI, el pH y la CE del horizonte Bt; las capas profundas aportaron agua compatible con aporte de la napa.",
+     "fuentes": [
+      "F-16"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "F-12, F-16 y F-18 son la misma línea experimental: no son evidencia independiente.",
+     "fuentes": [
+      "F-12",
+      "F-16",
+      "F-18"
+     ],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "La agricultura ocupa una parte menor de la Cuenca del Salado (inferencia pendiente de dato).",
+     "fuentes": [
+      "INV-10"
+     ],
+     "clase": "interpretacion"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Campos bajos de la Cuenca del Salado (un sitio)",
+   "estado": "limitado",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Profundidad de la napa en la campaña: los resultados no se aplican con napa profunda.",
+    "PSI y pH del subsuelo del lote."
+   ],
+   "limites": "Un sitio, una campaña, un híbrido. No hay ensayos locales revisados de soja, trigo o girasol.",
+   "pendientes": [
+    "Rindes por partido (ver tema de datos de cultivos).",
+    "Ensayos de soja y trigo en lomas de la zona."
+   ],
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-10",
+   "titulo": "Datos de cultivos por partido y seguimiento de campaña",
+   "rubros": [
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Cultivos",
+   "resumen": "Para saber qué se siembra y cuánto rinde en Lezama, Castelli, Dolores, Pila, Chascomús o General Belgrano, lo correcto es consultar las estimaciones oficiales por partido, no un número de memoria.",
+   "puntos": [
+    {
+     "texto": "Hay una serie oficial de estimaciones de cultivos por partido de la provincia, de 1969/70 a 2025/26, con licencia CC BY 4.0 (solo se verificó la ficha del conjunto de datos).",
+     "fuentes": [
+      "F-20261031-19"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "El INTA tiene un seguimiento de la producción agropecuaria (SEPA), solo con metadatos.",
+     "fuentes": [
+      "INV-24"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Lezama es partido desde 2009: hay que verificar si aparece separado de Chascomús en la serie.",
+     "fuentes": [
+      "F-20261031-19"
+     ],
+     "clase": "interpretacion"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todos los partidos bonaerenses",
+   "estado": "limitado",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Descargar la serie y cargar los partidos de la zona.",
+    "Comparar con datos del campo propio."
+   ],
+   "limites": "Son estimaciones por partido, no datos de un lote. Los archivos no se descargaron todavía.",
+   "pendientes": [
+    "Cargar la serie de los partidos de la zona en la app."
+   ],
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-11",
+   "titulo": "Fitosanitarios: receta, aplicación y trazabilidad",
+   "rubros": [
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Normativa",
+   "resumen": "En Buenos Aires la aplicación de fitosanitarios está regulada por la Ley 10.699 y su decreto, por la trazabilidad nacional y por ordenanzas municipales. La app solo resume obligaciones; no indica productos ni dosis.",
+   "puntos": [
+    {
+     "texto": "La receta agronómica la confecciona un ingeniero agrónomo; el comercio vende contra el primer cuerpo.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los operarios aplicadores necesitan habilitación con curso y certificado de salud; las empresas aplicadoras se inscriben cada año.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La aplicación terrestre no puede circular por centros poblados; la aérea, a no menos de 2 km.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Con colmenares a menos de 3.000 m se avisa al Centro Apícola con 36 h de antelación.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Hay normas municipales de restricción de agroquímicos en la provincia.",
+     "fuentes": [
+      "INV-21"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La trazabilidad de fitosanitarios se rige por la Res. SENASA 1175/2024.",
+     "fuentes": [
+      "INV-22"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Provincia de Buenos Aires; cada partido puede tener ordenanza propia",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Ordenanza vigente del partido donde se aplica.",
+    "Vigencia del Decreto 499/91 y normas posteriores."
+   ],
+   "limites": "El decreto es de 1991: puede haber cambios. Las ordenanzas municipales no se revisaron.",
+   "lista": "L-APLICAR",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-12",
+   "titulo": "Agricultura en campos bajos: efectos sobre suelo y ganadería",
+   "rubros": [
+    "mixto"
+   ],
+   "categoria": "Sistemas mixtos",
+   "resumen": "La relación entre agricultura y ganadería en la zona pasa por qué ambientes se agriculturizan y qué se pierde o gana en suelo y forraje. La evidencia local revisada es escasa.",
+   "puntos": [
+    {
+     "texto": "Una tesis (2023) estudia el impacto de la agricultura en campos bajos sobre suelos y cultivos (solo metadatos).",
+     "fuentes": [
+      "F-18"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Un trabajo (2024) estudia la alcalinidad y la profundidad del horizonte arcilloso en maíz y soja en dos lotes de la Pampa Deprimida; probable superposición con la tesis, no confirmada.",
+     "fuentes": [
+      "F-17"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "En los bajos sódicos el agropiro triplicaría la producción de forraje frente al pelo de chancho, según la autora.",
+     "fuentes": [
+      "F-20261031-10"
+     ],
+     "clase": "recomendacion-tecnica"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Campos bajos de la cuenca",
+   "estado": "limitado",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Evaluar cada lote por ambiente antes de cambiar su uso."
+   ],
+   "limites": "Falta evidencia local sobre rotaciones agrícola-ganaderas y su efecto en el suelo.",
+   "pendientes": [
+    "Buscar ensayos de rotaciones mixtas en la Pampa Deprimida (INTA Cuenca del Salado, FAUBA, UNLP)."
+   ],
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-13",
+   "titulo": "Clima, inundaciones y sequías",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Clima y riesgo",
+   "resumen": "La cuenca alterna excesos y déficits hídricos. El relieve llano hace que el agua se evacue lento. Para decidir, usar normales y monitoreos oficiales y registrar lo que pasa en el propio campo.",
+   "puntos": [
+    {
+     "texto": "Normales climatológicas 1991–2020 de Dolores Aero: 986,6 mm anuales, 15,1 °C y 21,8 días con helada (leídas en el CSV de NOAA; el PDF del SMN no se abrió).",
+     "fuentes": [
+      "F-19"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "El Plan Maestro Integral de la Cuenca del Río Salado es la planificación oficial de obras para la cuenca.",
+     "fuentes": [
+      "F-10"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Según el resumen de un libro de la UNLP, el relieve llano dificulta evacuar el agua en períodos de excedentes y provoca anegamientos persistentes.",
+     "fuentes": [
+      "F-20261031-17"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "Técnicos del INTA resumieron cómo responden pastizales y suelos tras inundaciones.",
+     "fuentes": [
+      "INV-03"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "La ORA (reservas de agua en el suelo) y el SIGA del INTA quedaron pendientes de verificar.",
+     "fuentes": [
+      "INV-02",
+      "INV-26"
+     ],
+     "clase": "comunicacion-institucional"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Cuenca del Salado (normales de Dolores)",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Pronóstico y alertas del SMN en el momento.",
+    "Registros de lluvia del propio campo."
+   ],
+   "limites": "Las normales son promedios de 30 años: no predicen un año. La ORA no se pudo abrir (bloqueo del sitio).",
+   "lista": "L-INUNDACION",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-14",
+   "titulo": "Emergencia y desastre agropecuario",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Clima y riesgo",
+   "resumen": "Ante una inundación o sequía grave, la ley nacional prevé beneficios si la provincia declara la emergencia y el productor tiene el certificado de afectación.",
+   "puntos": [
+    {
+     "texto": "Emergencia: afectación de al menos 50 % de la producción o capacidad productiva; desastre: 80 %.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La provincia declara primero y pide la adopción nacional; el Poder Ejecutivo decide.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El productor debe presentar el certificado provincial que acredita su nivel de afectación.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Beneficios previstos: prórrogas impositivas, deducción por ventas forzosas de hacienda, espera de deudas bancarias, suspensión de ejecuciones fiscales.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todo el país; declaración por partido",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Si el partido está declarado en emergencia en la fecha.",
+    "Trámite provincial del certificado (Ley 10.390, no revisada)."
+   ],
+   "limites": "No se revisó la ley provincial 10.390 ni la reglamentación nacional.",
+   "pendientes": [
+    "Leer la Ley provincial 10.390 y el trámite del certificado."
+   ],
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-15",
+   "titulo": "Compra y venta de hacienda: documentos",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Comercialización",
+   "resumen": "Mover o vender hacienda exige RENSPA actualizado, DT-e, identificación de los animales y documentación de propiedad (marca y certificado). Son regímenes distintos que conviven.",
+   "puntos": [
+    {
+     "texto": "Quien tenga el RENSPA sin actualizar hace más de un año debe actualizarlo.",
+     "fuentes": [
+      "F-20261030-05"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El DT-e ampara y habilita el movimiento de animales dentro del país; requiere RENSPA.",
+     "fuentes": [
+      "F-20261031-01"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Desde 2026 los terneros bovinos no pueden moverse ni quedar en el campo después del destete sin identificación electrónica; los dispositivos se declaran en 10 días hábiles.",
+     "fuentes": [
+      "F-20261031-09"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Todo propietario debe marcar su ganado mayor durante su primer año de vida; la transferencia se instrumenta con certificado de adquisición y el tránsito, con guía.",
+     "fuentes": [
+      "F-20261031-16"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "En Buenos Aires la Guía Única de traslado está creada por la Ley 10.891 (solo metadatos).",
+     "fuentes": [
+      "F-20261031-02"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los transportes de animales vivos deben estar habilitados por SENASA.",
+     "fuentes": [
+      "INV-14"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todo el país; trámites bonaerenses por municipio",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Trámite de guía y certificado en el municipio.",
+    "Si hubo prórrogas de la identificación electrónica."
+   ],
+   "limites": "La ley bonaerense de guías y el Código Rural no se leyeron. Las leyes 22.939 y 13.246 se leyeron en texto original.",
+   "lista": "L-COMPRA",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-16",
+   "titulo": "Pesada, desbaste y precio de venta",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Comercialización",
+   "resumen": "El precio por kilo vale poco sin saber cómo se pesa y cuánto desbaste se pacta. La app no trae precios: se cargan en el momento desde una fuente que se pueda citar.",
+   "puntos": [
+    {
+     "texto": "El desbaste es la diferencia de peso entre el campo y el mercado; en viajes de más de 10 h incluye pérdida de tejidos.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Valores citados: encierre nocturno de 12 h, 3–5 %; venta en campo cargando al amanecer, 3–5 %; por la tarde, 5–8 %.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Recomienda pesar y clasificar días antes, cargar tras la salida del sol, dar agua y heno y estar en las pesadas.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Un 10 % de desbaste equivale a un 10 % menos en el precio.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Precios: consultar el día de la operación en una fuente pública (por ejemplo, el Mercado Agroganadero de Cañuelas o informes de la Secretaría de Agricultura) y anotar fuente y fecha.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Referencia general",
+   "estado": "vigente",
+   "revisar_en": "2027-10",
+   "confirmar": [
+    "Porcentaje de desbaste, comisión y flete pactados por escrito en cada operación."
+   ],
+   "limites": "Material de curso de 2006. Los precios cambian a diario: nunca usar un precio guardado sin fecha.",
+   "herramienta": "H-VENTA",
+   "lista": "L-VENTA",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-17",
+   "titulo": "Margen bruto y decisiones económicas",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Economía",
+   "resumen": "El margen bruto ordena ingresos y costos directos de una actividad. Sirve para comparar alternativas con los mismos supuestos, no como pronóstico. Los modelos oficiales dan una referencia regional.",
+   "puntos": [
+    {
+     "texto": "Margen bruto = ingreso bruto − costos directos (comercialización, sanidad, alimentación, personal, reposición, etc.).",
+     "fuentes": [
+      "F-20261031-14"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Si el campo es propio, el modelo de Pergamino no incluye alquiler; si se arrienda, hay que sumarlo para comparar.",
+     "fuentes": [
+      "F-20261031-14"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "El modelo base de cría del Salado de MAGyP daba 310.573 $/ha (pesos de febrero 2026), 37 % sobre el promedio 2011–2026.",
+     "fuentes": [
+      "F-20261030-01"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Producción de carne = nacimientos − muertes + kilos ganados o perdidos (norma CREA).",
+     "fuentes": [
+      "F-20261031-15"
+     ],
+     "clase": "recomendacion-tecnica"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Modelo MAGyP de la Cuenca del Salado; método de Pergamino",
+   "estado": "revisar",
+   "revisar_en": "2027-01",
+   "confirmar": [
+    "Precios y costos actuales con fecha y fuente.",
+    "Supuestos (carga, preñez, destete) del campo propio."
+   ],
+   "limites": "Los valores en pesos pierden vigencia rápido. Un margen bruto no incluye impuestos, intereses ni el resultado por tenencia.",
+   "herramienta": "H-MARGEN",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-18",
+   "titulo": "Arrendamiento, aparcería y contratos",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Economía",
+   "resumen": "Los contratos agrarios tienen reglas de orden público (plazo mínimo, prohibición de subarrendar, forma escrita). Antes de firmar conviene ordenar qué se entrega, cómo se paga y cómo se termina.",
+   "puntos": [
+    {
+     "texto": "Si el plazo pactado es menor a cinco años, el arrendatario puede exigir que se considere celebrado por ese término (texto original).",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El arrendatario no puede subarrendar ni ceder el contrato.",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Hay aparcería cuando una parte entrega animales o un predio para explotarlo y se reparten los frutos.",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los contratos deben redactarse por escrito; si faltan formalidades, siguen amparados si se prueba su existencia.",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todo el país",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Texto actualizado de la ley y modificatorias (Ley 22.298).",
+    "Contratos accidentales: reglas propias, no revisadas.",
+    "Revisión por un abogado antes de firmar."
+   ],
+   "limites": "Se leyó el texto original de la ley. No es asesoramiento legal.",
+   "lista": "L-ARRIENDO",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-19",
+   "titulo": "Maquinaria: circulación por rutas y seguridad",
+   "rubros": [
+    "agricultura",
+    "mixto",
+    "ganaderia"
+   ],
+   "categoria": "Maquinaria e instalaciones",
+   "resumen": "La maquinaria agrícola en ruta tiene reglas de horario, ancho y señalización. En el campo, los accidentes con maquinaria son frecuentes y hay obligaciones de seguridad.",
+   "puntos": [
+    {
+     "texto": "Circular solo con luz solar; prohibido con lluvia, niebla o visibilidad reducida.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Ancho máximo 3,50 m; entre 3,50 y 4,30 m solo en carretón con permiso especial.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El tren lleva baliza ámbar, cuatro banderas rojas y blancas, cartel de precaución y seguro de responsabilidad civil.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "En una encuesta a 678 productores, el 12 % declaró un accidente con maquinaria y el 43 % de los tractores tenía 15 años o más.",
+     "fuentes": [
+      "F-20"
+     ],
+     "clase": "evidencia-experimental"
+    },
+    {
+     "texto": "El Decreto 617/97 es el reglamento de higiene y seguridad para la actividad agraria.",
+     "fuentes": [
+      "INV-23"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "parcial",
+   "zona": "Rutas nacionales; encuesta de otra zona",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Normas para rutas provinciales y caminos rurales (no revisadas).",
+    "Modificatorias del Decreto 617/97."
+   ],
+   "limites": "Anexo de 1998; puede haber cambios.",
+   "lista": "L-RUTA",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-20",
+   "titulo": "Trabajo rural y seguridad laboral",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Trabajo y seguridad",
+   "resumen": "El trabajo agrario tiene un régimen propio con jornada, descansos, prohibición del trabajo infantil y obligaciones de vivienda, agua y protección.",
+   "puntos": [
+    {
+     "texto": "Jornada: no más de 8 horas diarias y 44 semanales.",
+     "fuentes": [
+      "F-20261031-08"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Descanso desde las 13 h del sábado hasta el día siguiente, salvo excepciones con descanso compensatorio.",
+     "fuentes": [
+      "F-20261031-08"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Prohibido el trabajo de menores de 16 años.",
+     "fuentes": [
+      "F-20261031-08"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El empleador debe proveer vivienda sólida, alimentación adecuada, agua apta y elementos de protección cuando hagan falta.",
+     "fuentes": [
+      "F-20261031-08"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El Decreto 617/97 regula higiene y seguridad en la actividad agraria.",
+     "fuentes": [
+      "INV-23"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todo el país",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Reformas laborales recientes y resoluciones de la Comisión Nacional de Trabajo Agrario.",
+    "Consulta con contador o abogado antes de contratar."
+   ],
+   "limites": "No se verificó si el texto leído es el actualizado.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-21",
+   "titulo": "Agua para consumo humano y perforaciones",
+   "rubros": [
+    "ganaderia",
+    "agricultura",
+    "mixto"
+   ],
+   "categoria": "Agua",
+   "resumen": "El agua que toma la gente del campo tiene límites legales (arsénico) distintos de los del agua para la hacienda. Perforar o explotar agua subterránea en Buenos Aires requiere permisos.",
+   "puntos": [
+    {
+     "texto": "El agua potable tiene un máximo de arsénico de 0,01 mg/l; donde hay suelos con alto arsénico la autoridad puede admitir hasta 0,05 mg/l de forma transitoria.",
+     "fuentes": [
+      "F-20261031-13"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La Autoridad del Agua exige solicitud de disponibilidad de agua, permiso de perforación y permiso de explotación, con informe hidrogeológico.",
+     "fuentes": [
+      "F-20261031-22"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Provincia de Buenos Aires",
+   "estado": "revisar",
+   "revisar_en": "2027-03",
+   "confirmar": [
+    "Si hay excepciones para uso doméstico o bebida animal (Código de Aguas, no leído).",
+    "Análisis del agua de consumo en laboratorio."
+   ],
+   "limites": "La resolución de la ADA se leyó en FAOLEX y puede haber sido reemplazada.",
+   "fecha_revision": "2026-10-31"
+  },
+  {
+   "id": "T-22",
+   "titulo": "Inocuidad: residuos en alimentos de origen animal",
+   "rubros": [
+    "ganaderia"
+   ],
+   "categoria": "Inocuidad",
+   "resumen": "SENASA controla residuos de medicamentos y contaminantes en carne y leche. Un establecimiento con antecedentes queda en una lista con restricciones. Respetar los tiempos de retiro indicados por el veterinario evita problemas.",
+   "puntos": [
+    {
+     "texto": "El Plan CREHA muestrea alimentos de origen animal para detectar residuos por encima de los límites legales y publica las listas EAR y EARD.",
+     "fuentes": [
+      "F-22"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "La Res. SENASA 14/2020 regula la Lista de Establecimientos con Antecedentes de Residuos.",
+     "fuentes": [
+      "F-23"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La Res. SAGPyA 125/1998 fija el criterio integral de controles de residuos y crea la Lista EAR.",
+     "fuentes": [
+      "R-20261031-01"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ],
+   "evidencia_local": "local",
+   "zona": "Todo el país",
+   "estado": "vigente",
+   "revisar_en": "2027-04",
+   "confirmar": [
+    "Tiempos de retiro de cada producto: los indica el veterinario y el marbete."
+   ],
+   "limites": "La app no indica productos, dosis ni tiempos de retiro.",
+   "fecha_revision": "2026-10-31"
+  }
+ ],
+ "listas": [
+  {
+   "id": "L-COMPRA",
+   "titulo": "Antes de comprar o mover hacienda",
+   "tema": "T-15",
+   "items": [
+    {
+     "texto": "El vendedor tiene RENSPA actualizado.",
+     "fuentes": [
+      "F-20261030-05",
+      "INV-20"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El movimiento va con DT-e emitido por el responsable.",
+     "fuentes": [
+      "F-20261031-01"
+     ],
+     "clase": "comunicacion-institucional"
+    },
+    {
+     "texto": "Los terneros destetados tienen identificación electrónica y tarjeta visual.",
+     "fuentes": [
+      "F-20261031-09"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La hacienda tiene la marca del vendedor y se entrega certificado de adquisición.",
+     "fuentes": [
+      "F-20261031-16"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "La guía de traslado está tramitada en el municipio.",
+     "fuentes": [
+      "F-20261031-02"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Se conoce el estatus sanitario (brucelosis, vacunaciones de la campaña).",
+     "fuentes": [
+      "F-20261030-03",
+      "F-20261031-05"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "El camión está habilitado por SENASA.",
+     "fuentes": [
+      "INV-14"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Los animales están aptos para viajar.",
+     "fuentes": [
+      "F-20261030-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Precio, pesada, desbaste, plazo de pago, comisión y flete están acordados por escrito.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Revisión de los animales con el veterinario antes de cerrar (sobre todo toros).",
+     "fuentes": [
+      "F-20261031-07"
+     ],
+     "clase": "recomendacion-tecnica"
+    }
+   ]
+  },
+  {
+   "id": "L-VENTA",
+   "titulo": "Antes de vender hacienda",
+   "tema": "T-16",
+   "items": [
+    {
+     "texto": "RENSPA actualizado y DT-e listo.",
+     "fuentes": [
+      "F-20261030-05",
+      "F-20261031-01"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Identificación de los animales al día y declarada.",
+     "fuentes": [
+      "F-20261031-09"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Pesar y clasificar unos días antes del embarque.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Cargar después de la salida del sol, con agua y heno disponibles.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Estar presente en la pesada.",
+     "fuentes": [
+      "F-20261031-21"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Si los animales recibieron tratamientos, confirmar con el veterinario que se cumplió el tiempo de retiro.",
+     "fuentes": [
+      "F-22",
+      "R-20261031-01"
+     ],
+     "clase": "recomendacion-tecnica"
+    },
+    {
+     "texto": "Anotar el precio con fuente y fecha, y el desbaste y la comisión pactados.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    }
+   ]
+  },
+  {
+   "id": "L-ARRIENDO",
+   "titulo": "Antes de firmar un arrendamiento",
+   "tema": "T-18",
+   "items": [
+    {
+     "texto": "Contrato por escrito, con plazo claro (mínimo legal de 5 años para arrendamiento, salvo contratos accidentales).",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Sin cláusulas de subarriendo o cesión.",
+     "fuentes": [
+      "F-20261031-03"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Inventario de lo que se entrega: alambrados, aguadas, molinos, corrales y casa, con fotos fechadas.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Precio, forma de pago y ajuste por escrito.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Quién paga impuestos, tasas y mantenimiento.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Qué usos están permitidos (agricultura, pastoreo) y en qué ambientes.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Cómo se devuelve el campo y qué pasa con las mejoras.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Revisión por un abogado.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    }
+   ]
+  },
+  {
+   "id": "L-APLICAR",
+   "titulo": "Antes de una aplicación de fitosanitarios (solo normativa)",
+   "tema": "T-11",
+   "items": [
+    {
+     "texto": "Receta agronómica de un ingeniero agrónomo.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Empresa aplicadora inscripta y operario habilitado.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Si hay colmenas a menos de 3.000 m, aviso al Centro Apícola con 36 h de antelación.",
+     "fuentes": [
+      "F-20261031-18"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Distancias a centros poblados y ordenanza del partido revisadas.",
+     "fuentes": [
+      "F-20261031-18",
+      "INV-21"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Trazabilidad del producto registrada.",
+     "fuentes": [
+      "INV-22"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Elementos de protección para quien aplica.",
+     "fuentes": [
+      "INV-23"
+     ],
+     "clase": "obligacion-normativa"
+    }
+   ]
+  },
+  {
+   "id": "L-RUTA",
+   "titulo": "Antes de salir a la ruta con maquinaria",
+   "tema": "T-19",
+   "items": [
+    {
+     "texto": "Es de día y no llueve ni hay niebla.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Ancho de 3,50 m o menos (si no, carretón con permiso).",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Baliza ámbar, cuatro banderas y cartel de precaución.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Seguro de responsabilidad civil vigente de cada elemento.",
+     "fuentes": [
+      "F-20261031-11"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Protección de la toma de fuerza colocada.",
+     "fuentes": [
+      "F-20"
+     ],
+     "clase": "evidencia-experimental"
+    }
+   ]
+  },
+  {
+   "id": "L-INUNDACION",
+   "titulo": "Si el campo se inunda o hay sequía grave",
+   "tema": "T-13",
+   "items": [
+    {
+     "texto": "Registrar en Campo: fecha, lotes afectados, nivel del agua y fotos.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    },
+    {
+     "texto": "Revisar agua de bebida y acceso de la hacienda a lugares altos.",
+     "fuentes": [
+      "F-20261030-04",
+      "F-20261030-07"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Consultar si el partido está declarado en emergencia o desastre.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Pedir el certificado provincial de afectación para acceder a beneficios.",
+     "fuentes": [
+      "F-20261031-04"
+     ],
+     "clase": "obligacion-normativa"
+    },
+    {
+     "texto": "Exportar un respaldo de la app.",
+     "fuentes": [],
+     "clase": "interpretacion"
+    }
+   ]
+  }
+ ],
+ "herramientas": [
+  {
+   "id": "H-VENTA",
+   "titulo": "Calculadora de venta: desbaste, comisión y flete",
+   "tema": "T-16",
+   "fuentes": [
+    "F-20261031-21"
+   ],
+   "nota": "No trae precios. Cargá el precio del día con su fuente y fecha. El desbaste es el pactado en la operación."
+  },
+  {
+   "id": "H-MARGEN",
+   "titulo": "Margen bruto simple",
+   "tema": "T-17",
+   "fuentes": [
+    "F-20261031-14",
+    "F-20261030-01"
+   ],
+   "nota": "Margen bruto = ingresos − costos directos. Si arrendás, sumá el alquiler como costo para comparar. No incluye impuestos ni intereses."
+  },
+  {
+   "id": "H-POTREROS",
+   "titulo": "Cantidad de potreros para pastoreo rotativo",
+   "tema": "T-02",
+   "fuentes": [
+    "F-20261030-08"
+   ],
+   "nota": "Potreros = días de descanso ÷ días de ocupación + 1 (fórmula de la cartilla de pastoreo controlado)."
+  }
+ ],
+ "ilustraciones": {
+  "I-PAISAJE": {
+   "titulo": "Esquema de ambientes",
+   "fuentes": [
+    "F-20261030-02",
+    "F-20261031-10"
+   ],
+   "nota": "Ilustración propia, esquemática y no a escala. No es evidencia ni representa un campo real."
+  },
+  "I-EC": {
+   "titulo": "Estado corporal: objetivos de referencia",
+   "fuentes": [
+    "F-20261031-06"
+   ],
+   "nota": "Ilustración propia con los valores de la guía citada. No reemplaza la evaluación del veterinario."
+  }
+ }
 }

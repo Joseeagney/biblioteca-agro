@@ -1,8 +1,8 @@
 /* Service worker de la Biblioteca agropecuaria.
    Guarda los archivos de la app para abrirla sin conexión.
-   Al publicar una versión nueva, cambiá CACHE (por ejemplo v0.1.2). Mantené el prefijo. */
+   Al publicar una versión nueva, cambiá CACHE (por ejemplo v0.2.1). Mantené el prefijo. */
 var PREFIJO = "biblioteca-agro-";
-var CACHE = PREFIJO + "v0.1.1";
+var CACHE = PREFIJO + "v0.2.0";
 var ARCHIVOS = [
   "./",
   "index.html",
@@ -15,8 +15,10 @@ var ARCHIVOS = [
   "iconos/apple-touch-icon.png"
 ];
 
+// La versión nueva se activa apenas termina de instalarse, así "Recargar" abre la versión nueva
+// sin tener que cerrar la app. Los datos del usuario (IndexedDB) no se tocan.
 self.addEventListener("install", function (e) {
-  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ARCHIVOS); }));
+  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ARCHIVOS); }).then(function () { return self.skipWaiting(); }));
 });
 
 // Borra solo las cachés viejas de esta app (mismo prefijo, otra versión).

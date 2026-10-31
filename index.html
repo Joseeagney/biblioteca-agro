@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Biblioteca agropecuaria</title>
-  <meta name="description" content="Biblioteca agropecuaria personal: fichas de fuentes, afirmaciones y observaciones de campo, consultables sin conexión.">
-  <meta name="theme-color" content="#556B2F">
+  <meta name="description" content="Biblioteca agropecuaria personal para la Cuenca del Salado: temas con fuentes, listas de verificación, calculadoras y notas de campo, consultables sin conexión.">
+  <meta name="theme-color" content="#F7F3EA">
+  <meta name="color-scheme" content="light dark">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Biblioteca agro">
@@ -17,28 +18,43 @@
 </head>
 <body>
   <header class="cabecera">
-    <div class="cabecera-titulo">
-      <h1>Biblioteca agropecuaria</h1>
-      <p>Fichas, afirmaciones y observaciones. No diagnostica ni recomienda.</p>
-    </div>
+    <a class="marca" href="#/inicio" aria-label="Inicio">
+      <svg class="marca-icono" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 29V12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+        <path d="M16 15c-5 0-8-3-8-8 5 0 8 3 8 8zM16 20c5 0 8-3 8-8-5 0-8 3-8 8z" fill="currentColor"/>
+        <path d="M5 29h22" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span class="marca-texto"><strong>Biblioteca agro</strong><span>Cuenca del Salado</span></span>
+    </a>
   </header>
 
   <div id="aviso-conexion" class="aviso aviso-conexion" hidden>
-    Sin conexión: podés consultar y registrar. Los enlaces externos no abren y no se puede comprobar si una norma sigue vigente.
+    Sin conexión: podés consultar y registrar. Los enlaces a documentos no abren y no se puede comprobar si una norma sigue vigente.
   </div>
   <div id="aviso-actualizacion" class="aviso" hidden>
     Hay una versión nueva de la app. <button type="button" id="btn-recargar" class="enlace-boton">Recargar</button>
   </div>
 
-  <main id="vista" class="vista" tabindex="-1" aria-live="polite">
+  <main id="vista" class="vista" tabindex="-1">
     <p class="cargando">Cargando la biblioteca…</p>
   </main>
 
   <nav class="navegacion" aria-label="Secciones">
-    <a href="#/buscar" data-seccion="buscar">Buscar</a>
-    <a href="#/fuentes" data-seccion="fuentes">Fuentes</a>
-    <a href="#/campo" data-seccion="campo">Campo</a>
-    <a href="#/respaldo" data-seccion="respaldo">Respaldo</a>
+    <a href="#/inicio" data-seccion="inicio">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
+      <span>Inicio</span></a>
+    <a href="#/temas?cat=todas&amp;estado=todos" data-seccion="temas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 4h-5a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h5z"/></svg>
+      <span>Temas</span></a>
+    <a href="#/buscar" data-seccion="buscar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
+      <span>Buscar</span></a>
+    <a href="#/campo" data-seccion="campo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 10h7M9 14h7M9 18h4"/></svg>
+      <span>Mis notas</span></a>
+    <a href="#/mas" data-seccion="mas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>
+      <span>Más</span></a>
   </nav>
 
   <script src="app.js"></script>
